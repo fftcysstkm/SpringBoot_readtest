@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Home</title>
+</head>
+<body>
+	<h1>CRUD練習</h1>
+	<form method="post" action="/home">
+		ユーザーidを入力：
+		<input type="text" name="text1" th:value="${text1_value}"/>
+		<input type="submit" value="クリック"/>
+	</form>
+</body>
+</html>
